@@ -645,29 +645,6 @@ BankLens follows a modular architecture.
 
 ---
 
-# 📁 Project Structure
-
-```text
-bank_marketing_model_lab/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│   ├── README.md
-│   └── bank-full.csv
-│
-└── src/
-    ├── __init__.py
-    ├── data.py
-    ├── preprocessing.py
-    ├── models.py
-    ├── evaluation.py
-    └── interpretation.py
-```
-
----
 
 # 📄 Module Responsibilities
 
@@ -783,53 +760,6 @@ The prediction target represents whether the customer subscribed to a term depos
 
 ---
 
-# 🚀 Installation
-
-## 1. Clone the Repository
-
-```bash
-git clone <your-repository-url>
-cd bank_marketing_model_lab
-```
-
----
-
-## 2. Create a Virtual Environment
-
-### Windows
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-### macOS / Linux
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-```
-
----
-
-## 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-A typical dependency list includes:
-
-```text
-streamlit
-pandas
-numpy
-scikit-learn
-plotly
-ucimlrepo
-```
-
----
 
 # ▶️ Run the Application
 
@@ -1184,83 +1114,6 @@ Subscription probability: 71%
 Prediction:
 Likely to Subscribe
 ```
-
----
-
-# 🔮 Possible Future Improvements
-
-Future versions could include:
-
-- Hyperparameter tuning
-- GridSearchCV
-- RandomizedSearchCV
-- SMOTE for imbalanced classes
-- Precision-recall curves
-- Calibration curves
-- SHAP explanations
-- Permutation importance for every model
-- Feature selection
-- PCA
-- Statistical significance analysis
-- Confidence intervals
-- Threshold optimization
-- Model persistence
-- Downloadable trained models
-- Automated experiment reports
-- Experiment tracking
-- Cross-validation dashboards
-- XGBoost
-- LightGBM
-- Gradient Boosting
-- Neural-network comparison
-
----
-
-# 🎯 Learning Outcome
-
-The goal of BankLens is not simply to achieve the highest possible classification score.
-
-The project demonstrates the complete analytical workflow:
-
-```text
-Understand the problem
-        ↓
-Explore the dataset
-        ↓
-Prevent leakage
-        ↓
-Prepare mixed data
-        ↓
-Train multiple models
-        ↓
-Evaluate correctly
-        ↓
-Compare algorithms
-        ↓
-Interpret predictions
-        ↓
-Use the model on new observations
-```
-
-It therefore combines:
-
-```text
-Statistics
-+
-Machine Learning
-+
-Data Preprocessing
-+
-Model Evaluation
-+
-Interpretability
-+
-Interactive Visualization
-+
-Software Engineering
-```
-
-into one complete project.
 
 ---
 
